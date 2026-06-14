@@ -8,6 +8,19 @@ the ones you can't place.**
 Read the problem in full at the site's **Understand** and **The task** pages first. This kit just
 removes the plumbing so you start at the interesting part.
 
+## AI transcripts
+
+The raw AI chat transcripts for this submission are in **[`/transcripts`](transcripts/)**:
+
+- **[`transcripts/claude-code-session.md`](transcripts/claude-code-session.md)** — human-readable
+  transcript of the **Claude Code CLI** session that built this solution (prompts, replies, tool
+  calls, and results).
+- **`transcripts/claude-code-session.jsonl`** — the raw session log Claude Code saved locally.
+- **[`transcripts/README.md`](transcripts/README.md)** — index, plus links to any claude.ai web
+  chats used to understand the problem.
+
+> A plain-English walkthrough of the task and our method is in **[`GUIDE.md`](GUIDE.md)**.
+
 ## What this kit does (and doesn't)
 
 It hands you the geospatial plumbing we are **not** assessing, so your hours go to the actual
